@@ -1,0 +1,27 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css";
+* {
+    box-sizing: border-box;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+/* Cards */
+:root {
+    --card-height: 300px;
+    --card-width: calc(var(--card-height) / 1.5);
+}
+
+.tabs a.active {
+    border-bottom: rgb(117, 133, 255) solid 2px;
+    color: rgb(117, 133, 255);
+}
+.tabs a:not(.active) {
+    border-bottom: rgb(127, 130, 147) solid 2px;
+}
+.tabs a.is-button {
+    border-bottom: transparent solid 2px;
+}
