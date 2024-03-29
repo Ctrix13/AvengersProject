@@ -15,9 +15,9 @@ Assurez-vous d'avoir Node.js installé sur votre machine. Vous pouvez le téléc
 
 ## Installation de React
 1. Ouvrez votre terminal.
-2. Accédez au répertoire 
+2. Accédez au répertoire front
 3. Exécutez la commande suivante : 
-    npm install React
+    npm install
 Pour lancer le serveur :
 Exécutez la commande suivante : 
     npm start
@@ -25,9 +25,9 @@ Exécutez la commande suivante :
 ## Installation d'Express.js
 
 1. Ouvrez votre terminal.
-2. Accédez au répertoire de votre projet.
+2. Accédez au répertoire back
 3. Exécutez la commande suivante pour installer Express.js localement :
-   npm install express
+   npm install
 
 Pour lancer le serveur  
 Exécutez la commande suivante : 
